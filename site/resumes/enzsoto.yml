@@ -1,0 +1,163 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Enzo
+    last_name: Soto
+    
+    # Define yourself in 4-5 words
+    motto: No le tengo miedo al fracaso
+    
+    # Focus
+    focus: Aprender
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Ingeniero Informático con 8 años de experiencia trabajando con tecnologías IBM en entornos empresariales de alta demanda.
+      Especializado en IBM API Connect, IBM DataPower Gateway e IBM MQ, participando en el diseño, integración y aseguramiento de plataformas críticas.
+
+      Actualmente me encuentro estudiando Full Stack Development, con el objetivo de ampliar mis competencias técnicas y fortalecer soluciones end-to-end que aporten valor tanto en proyectos profesionales como personales.
+
+      Apasionado por la arquitectura de software, la integración de sistemas y el aprendizaje continuo.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: enz.soto@gmail.com
+    phone: |
+      +56 9 9613 9757
+    website: N/A
+    linkedin: https://www.linkedin.com/in/enzo-fabian-soto-soto/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: enzsoto
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Camping
+
+      - item: Trekking
+
+      - item: Gaming
+
+# Your previous education
+education:
+    - degree: Ingeniero en Informatica
+      university: DuocUC
+      # optional
+      university_logo: 
+      time: 2017 - 2019
+      details: 
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Freelance
+      time: 2025 Julio - 2026 Enero
+      company: Socius
+      # optional
+      company_logo: 
+      details: |
+        Lideré el diseño e implementación de integraciones críticas entre la plataforma SPIN y múltiples canales
+        digitales (web, mobile y sistemas internos), asegurando alta disponibilidad, seguridad y trazabilidad de
+        transacciones financieras.
+        • Arquitecté y desarrollé servicios de integración utilizando APIs RESTful, orquestando flujos de negocio para
+        pagos, transferencias y validaciones transaccionales con terceros bancarios y proveedores financieros.
+        • Implementé mecanismos de autenticación y autorización robustos mediante certificados digitales, configurando
+        mTLS (mutual TLS) para garantizar comunicación segura extremo a extremo entre servicios.
+        • Diseñé y ejecuté procesos de firma digital de mensajes utilizando estándares criptográficos (JWS / PKI),
+        asegurando integridad, no repudio y cumplimiento de normativas de seguridad bancaria.
+        • Integré SPIN con APIs bancarias externas para operaciones financieras, gestionando intercambio de claves,
+        certificados X.509 y validación criptográfica de solicitudes y respuestas.
+        • Implementé flujos de observabilidad y monitoreo (logs, métricas y trazas) para asegurar la continuidad
+        operativa y facilitar el diagnóstico de incidentes en entornos productivos.
+        • Colaboré con equipos de seguridad, negocio y proveedores externos para alinear las integraciones a los
+        estándares regulatorios y de cumplimiento financiero.
+
+    - role: Ingeniero de Integraciones
+      time: 2020 Febrero - 2025 Junio
+      company: Femsa Salud
+      # optional
+      company_logo: 
+      details: |
+        Lideré la gobernanza y estandarización de APIs corporativas sobre IBM API Connect, definiendo lineamientos
+        de arquitectura API First, ciclo de vida, versionamiento y políticas de consumo para distintas unidades de
+        negocio del grupo FEMSA.
+        • Implementé modelos de seguridad empresarial (OAuth2, JWT, Client Credentials, certificados cruzados y
+        validaciones de tráfico).
+        • Diseñé y mantuve flujos de integración B2B/B2C de alto volumen con mensajería REST/JSON y SOAP/XML,
+        habilitando interoperabilidad entre sistemas críticos de negocio y terceros regionales.
+        • Implementé pipelines de despliegue y automatización con Bitbucket + Jenkins, asegurando trazabilidad, control
+        de versiones y entregas consistentes para entornos DEV, QA, PRE y PROD.
+
+        • Coordiné acciones de observabilidad y monitoreo aplicando Instana y registros de trazabilidad, acelerando la
+        detección de fallos.
+        • Actué como referente técnico en comités de arquitectura y eficiencia operativa, alineando decisiones técnicas
+        con objetivos de negocio y reducción de costos operacionales.
+        • Documenté y difundí buenas prácticas de diseño y operación de APIs en Confluence, funcionando como punto
+        de referencia regional para equipos de integración y desarrollo.
+
+    - role: Analista Desarrollador
+      time: 2016 Diciembre - 2020 Enero
+      company: Vector ITC Group
+      # optional
+      company_logo: 
+      details: |
+        • Participé en proyectos de integración para clientes del sector financiero y bancario, desarrollando APIs y
+        microservicios sobre plataformas IBM Datapower Gateway, IBM API Connect y MQ, bajo estándares de alta
+        disponibilidad y seguridad.
+        • Diseñé flujos de integración seguros con firmas digitales, encriptación y certificados cruzados, garantizando
+        cumplimiento con normativas bancarias y auditorías de seguridad.
+        • Construí servicios basados en SOAP/XML y REST/JSON, integrando sistemas core bancarios con plataformas
+        externas mediante colas MQ y conectores especializados.
+        • Elaboré diagramas de arquitectura, componentes y flujo de integración para la definición de soluciones,
+        trabajando directamente con áreas de negocio y arquitectura.
+        • Gestioné requerimientos técnicos mediante Jira, documentando avances, dependencias y entregables bajo
+        enfoque ágil e incremental.
+        • Contribuí a la estandarización de plantillas y patrones técnicos de integración, sentando base para modelos
+        posteriores de gobierno API.
+
+# Your project portfolio
+projects:
+    intro: 
+
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+skills:
+    toolset:
+      - name: JavaScript
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Java
+        level: 60%
+
+      - name: Python
+        level: 5%
+
+
